@@ -1,0 +1,1209 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Recon|||Select mgmnh_test.dbo.check_register.vendor_full_name As vendor_full_name, mgmnh_test.dbo.check_register.casino_amount As casino_amount, mgmnh_test.dbo.check_register.invoice_no As invoice_no, mgmnh_test.dbo.check_register.check_date As check_date, mgmnh_test.dbo.check_register.check_amount As check_amount, mgmnh_test.dbo.check_register.procurement_phase, mgmnh_test.dbo.check_register.project_id From mgmnh_test.dbo.check_register</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <ReadUncommitted>False</ReadUncommitted>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Recon
+Table=Select mgmnh_test.dbo.check_register.vendor_full_name As vendor_full_name, mgmnh_test.dbo.check_register.casino_amount As casino_amount, mgmnh_test.dbo.check_register.invoice_no As invoice_no, mgmnh_test.dbo.check_register.check_date As check_date, mgmnh_test.dbo.check_register.check_amount As check_amount, mgmnh_test.dbo.check_register.procurement_phase, mgmnh_test.dbo.check_register.project_id From mgmnh_test.dbo.check_register</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="vendor_full_name" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.check_register.vendor_full_name As vendor_full_name, mgmnh_test.dbo.check_register.casino_amount As casino_amount, mgmnh_test.dbo.check_register.invoice_no As invoice_no, mgmnh_test.dbo.check_register.check_date As check_date, mgmnh_test.dbo.check_register.check_amount As check_amount, mgmnh_test.dbo.check_register.procurement_phase, mgmnh_test.dbo.check_register.project_id From mgmnh_test.dbo.check_register" type="V_WString" />
+            <Field name="casino_amount" scale="4" size="21" source="File: aka:Recon|||Select mgmnh_test.dbo.check_register.vendor_full_name As vendor_full_name, mgmnh_test.dbo.check_register.casino_amount As casino_amount, mgmnh_test.dbo.check_register.invoice_no As invoice_no, mgmnh_test.dbo.check_register.check_date As check_date, mgmnh_test.dbo.check_register.check_amount As check_amount, mgmnh_test.dbo.check_register.procurement_phase, mgmnh_test.dbo.check_register.project_id From mgmnh_test.dbo.check_register" type="FixedDecimal" />
+            <Field name="invoice_no" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.check_register.vendor_full_name As vendor_full_name, mgmnh_test.dbo.check_register.casino_amount As casino_amount, mgmnh_test.dbo.check_register.invoice_no As invoice_no, mgmnh_test.dbo.check_register.check_date As check_date, mgmnh_test.dbo.check_register.check_amount As check_amount, mgmnh_test.dbo.check_register.procurement_phase, mgmnh_test.dbo.check_register.project_id From mgmnh_test.dbo.check_register" type="V_WString" />
+            <Field name="check_date" source="File: aka:Recon|||Select mgmnh_test.dbo.check_register.vendor_full_name As vendor_full_name, mgmnh_test.dbo.check_register.casino_amount As casino_amount, mgmnh_test.dbo.check_register.invoice_no As invoice_no, mgmnh_test.dbo.check_register.check_date As check_date, mgmnh_test.dbo.check_register.check_amount As check_amount, mgmnh_test.dbo.check_register.procurement_phase, mgmnh_test.dbo.check_register.project_id From mgmnh_test.dbo.check_register" type="Date" />
+            <Field name="check_amount" scale="4" size="21" source="File: aka:Recon|||Select mgmnh_test.dbo.check_register.vendor_full_name As vendor_full_name, mgmnh_test.dbo.check_register.casino_amount As casino_amount, mgmnh_test.dbo.check_register.invoice_no As invoice_no, mgmnh_test.dbo.check_register.check_date As check_date, mgmnh_test.dbo.check_register.check_amount As check_amount, mgmnh_test.dbo.check_register.procurement_phase, mgmnh_test.dbo.check_register.project_id From mgmnh_test.dbo.check_register" type="FixedDecimal" />
+            <Field name="procurement_phase" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.check_register.vendor_full_name As vendor_full_name, mgmnh_test.dbo.check_register.casino_amount As casino_amount, mgmnh_test.dbo.check_register.invoice_no As invoice_no, mgmnh_test.dbo.check_register.check_date As check_date, mgmnh_test.dbo.check_register.check_amount As check_amount, mgmnh_test.dbo.check_register.procurement_phase, mgmnh_test.dbo.check_register.project_id From mgmnh_test.dbo.check_register" type="V_WString" />
+            <Field name="project_id" source="File: aka:Recon|||Select mgmnh_test.dbo.check_register.vendor_full_name As vendor_full_name, mgmnh_test.dbo.check_register.casino_amount As casino_amount, mgmnh_test.dbo.check_register.invoice_no As invoice_no, mgmnh_test.dbo.check_register.check_date As check_date, mgmnh_test.dbo.check_register.check_amount As check_amount, mgmnh_test.dbo.check_register.procurement_phase, mgmnh_test.dbo.check_register.project_id From mgmnh_test.dbo.check_register" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <ReadUncommitted>False</ReadUncommitted>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Recon
+Table=Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="d6_id" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Int32" />
+            <Field name="report_month" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Int16" />
+            <Field name="report_year" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Int16" />
+            <Field name="payment_app" size="100" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="revision_report" size="1" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="String" />
+            <Field name="revision_from" size="200" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="final_report" size="1" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="String" />
+            <Field name="mbe_type" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Int16" />
+            <Field name="mbe_id" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Int32" />
+            <Field name="mbe_name" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_contact_person" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_street_addr" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_city" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_state" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_zip_code" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_phone" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_fax" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_email" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_contractNumber" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="contract_no" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_contract_base_value" scale="4" size="21" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="FixedDecimal" />
+            <Field name="mbe_approved_change_order" scale="4" size="21" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="FixedDecimal" />
+            <Field name="mbe_revised_change_order" scale="4" size="21" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="FixedDecimal" />
+            <Field name="mbe_retention_value" scale="4" size="21" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="FixedDecimal" />
+            <Field name="mbe_cumulative_paid" scale="4" size="21" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="FixedDecimal" />
+            <Field name="mbe_achivement" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Double" />
+            <Field name="mbe_mdot_no" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_subgroup" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_wbe" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_naics_code" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_cert_type_1" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_cert_no_1" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_cert_type_2" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="mbe_cert_no_2" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="procurement_phase_id" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Int16" />
+            <Field name="work_begin_date" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Date" />
+            <Field name="work_end_date" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Date" />
+            <Field name="work_desc" size="1000" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="prime_type" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Int16" />
+            <Field name="prime_id" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Int32" />
+            <Field name="prime_name" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="prime_contact" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="prime_street_addr" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="prime_city" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="prime_state" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="prime_zip_code" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="prime_phone" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="prime_fax" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="prime_email" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="comments" size="2000" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="document_sign_date" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Date" />
+            <Field name="d6_form_file_name" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="record_status" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="source" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="V_WString" />
+            <Field name="update_date" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="DateTime" />
+            <Field name="create_date" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="DateTime" />
+            <Field name="project_id" source="File: aka:Recon|||Select mgmnh_test.dbo.d6.* From mgmnh_test.dbo.d6" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <ReadUncommitted>False</ReadUncommitted>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Recon
+Table=Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="d6_payment_id" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="Int32" />
+            <Field name="d6_id" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="Int32" />
+            <Field name="payment_type" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="V_WString" />
+            <Field name="date_issued" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="Date" />
+            <Field name="invoice_app_num" size="255" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="V_WString" />
+            <Field name="amount" scale="4" size="21" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="FixedDecimal" />
+            <Field name="casino_amount" scale="4" size="21" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="FixedDecimal" />
+            <Field name="prime_is_mbe_MDOT" size="5" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="V_WString" />
+            <Field name="prime_is_mbe_PGC" size="5" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="V_WString" />
+            <Field name="detail_procurement_phase" size="10" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="V_WString" />
+            <Field name="record_statue" size="50" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="V_WString" />
+            <Field name="update_date" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="DateTime" />
+            <Field name="create_date" source="File: aka:Recon|||Select mgmnh_test.dbo.d6_payment.* From mgmnh_test.dbo.d6_payment" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="210" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[check_date] &gt;= "2019-01-01" AND [procurement_phase] = "4" AND [project_id] = 10100</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>check_date</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-09-13 16:14:07</PeriodDate>
+              <PeriodType>days</PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2019-01-01</Operand>
+              <StartDate>2019-09-13 16:14:07</StartDate>
+              <EndDate>2019-09-13 16:14:07</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[check_date] &gt;= "2019-01-01" AND [procurement_phase] = "4" AND [project_id] = 10...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="366" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="vendor_full_name" />
+            <Field name="invoice_no" />
+            <Field name="*Unknown" />
+            <Field name="procurement_phase" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>TRIM([_CurrentField_])</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TRIM([_CurrentField_])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="234" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Recon|||Select mgmnh_test.dbo.company.company_id, mgmnh_test.dbo.company.check_name, mgmnh_test.dbo.company.name From mgmnh_test.dbo.company</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <ReadUncommitted>False</ReadUncommitted>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Recon
+Table=Select mgmnh_test.dbo.company.company_id, mgmnh_test.dbo.company.check_name, mgmnh_test.dbo.company.name From mgmnh_test.dbo.company</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="company_id" source="File: aka:Recon|||Select mgmnh_test.dbo.company.company_id, mgmnh_test.dbo.company.check_name, mgmnh_test.dbo.company.name From mgmnh_test.dbo.company" type="Int32" />
+            <Field name="check_name" size="400" source="File: aka:Recon|||Select mgmnh_test.dbo.company.company_id, mgmnh_test.dbo.company.check_name, mgmnh_test.dbo.company.name From mgmnh_test.dbo.company" type="V_WString" />
+            <Field name="name" size="400" source="File: aka:Recon|||Select mgmnh_test.dbo.company.company_id, mgmnh_test.dbo.company.check_name, mgmnh_test.dbo.company.name From mgmnh_test.dbo.company" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="258" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="d6_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="d6_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_d6_id" selected="True" rename="Right_d6_id" input="Right_" />
+                <SelectField field="Right_update_date" selected="True" rename="Right_update_date" input="Right_" />
+                <SelectField field="Right_create_date" selected="True" rename="Right_create_date" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="342" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="mbe_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="company_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_d6_payment_id" selected="False" input="Left_" />
+                <SelectField field="Left_d6_id" selected="False" input="Left_" />
+                <SelectField field="Left_casino_amount" selected="False" input="Left_" />
+                <SelectField field="Left_prime_is_mbe_MDOT" selected="False" input="Left_" />
+                <SelectField field="Left_prime_is_mbe_PGC" selected="False" input="Left_" />
+                <SelectField field="Left_detail_procurement_phase" selected="False" input="Left_" />
+                <SelectField field="Left_update_date" selected="False" input="Left_" />
+                <SelectField field="Left_create_date" selected="False" input="Left_" />
+                <SelectField field="Left_Right_d6_id" selected="False" input="Left_" />
+                <SelectField field="Left_report_month" selected="False" input="Left_" />
+                <SelectField field="Left_report_year" selected="False" input="Left_" />
+                <SelectField field="Left_payment_app" selected="False" input="Left_" />
+                <SelectField field="Left_revision_report" selected="False" input="Left_" />
+                <SelectField field="Left_revision_from" selected="False" input="Left_" />
+                <SelectField field="Left_final_report" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_type" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_id" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_contact_person" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_street_addr" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_city" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_state" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_zip_code" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_phone" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_fax" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_email" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_contractNumber" selected="False" input="Left_" />
+                <SelectField field="Left_contract_no" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_contract_base_value" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_approved_change_order" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_revised_change_order" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_retention_value" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_cumulative_paid" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_achivement" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_mdot_no" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_subgroup" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_wbe" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_naics_code" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_cert_type_1" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_cert_no_1" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_cert_type_2" selected="False" input="Left_" />
+                <SelectField field="Left_mbe_cert_no_2" selected="False" input="Left_" />
+                <SelectField field="Left_work_begin_date" selected="False" input="Left_" />
+                <SelectField field="Left_work_end_date" selected="False" input="Left_" />
+                <SelectField field="Left_work_desc" selected="False" input="Left_" />
+                <SelectField field="Left_prime_type" selected="False" input="Left_" />
+                <SelectField field="Left_prime_id" selected="False" input="Left_" />
+                <SelectField field="Left_prime_name" selected="False" input="Left_" />
+                <SelectField field="Left_prime_contact" selected="False" input="Left_" />
+                <SelectField field="Left_prime_street_addr" selected="False" input="Left_" />
+                <SelectField field="Left_prime_city" selected="False" input="Left_" />
+                <SelectField field="Left_prime_state" selected="False" input="Left_" />
+                <SelectField field="Left_prime_zip_code" selected="False" input="Left_" />
+                <SelectField field="Left_prime_phone" selected="False" input="Left_" />
+                <SelectField field="Left_prime_fax" selected="False" input="Left_" />
+                <SelectField field="Left_prime_email" selected="False" input="Left_" />
+                <SelectField field="Left_comments" selected="False" input="Left_" />
+                <SelectField field="Left_document_sign_date" selected="False" input="Left_" />
+                <SelectField field="Left_d6_form_file_name" selected="False" input="Left_" />
+                <SelectField field="Left_record_status" selected="False" input="Left_" />
+                <SelectField field="Left_source" selected="False" input="Left_" />
+                <SelectField field="Left_Right_update_date" selected="False" input="Left_" />
+                <SelectField field="Left_Right_create_date" selected="False" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="690" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="vendor_full_name" action="GroupBy" rename="vendor_full_name" />
+            <SummarizeField field="invoice_no" action="GroupBy" rename="invoice_no" />
+            <SummarizeField field="check_date" action="GroupBy" rename="check_date" />
+            <SummarizeField field="check_amount" action="GroupBy" rename="check_amount" />
+            <SummarizeField field="name" action="GroupBy" rename="name" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="438" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[date_issued] &gt;= "2019-01-01" AND [payment_type] = "paid" AND [record_statue] = "active"
+AND [project_id] = 10100 AND [procurement_phase_id] = 4</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>date_issued</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-09-13 16:11:55</PeriodDate>
+              <PeriodType>days</PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2019-01-01</Operand>
+              <StartDate>2019-09-13 16:11:55</StartDate>
+              <EndDate>2019-09-13 16:11:55</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[date_issued] &gt;= "2019-01-01" AND [payment_type] = "paid" AND [record_statue] = ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="594" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="check_name" action="GroupBy" rename="check_name" />
+            <SummarizeField field="invoice_app_num" action="GroupBy" rename="invoice_app_num" />
+            <SummarizeField field="date_issued" action="GroupBy" rename="date_issued" />
+            <SummarizeField field="amount" action="GroupBy" rename="amount" />
+            <SummarizeField field="name" action="GroupBy" rename="name" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="726" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="check_name" />
+            <Field name="name" />
+            <Field name="*Unknown" />
+            <Field name="invoice_app_num" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>TRIM([_CurrentField_])</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TRIM([_CurrentField_])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="822" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="check_name" />
+            <Field field="amount" />
+            <Field field="New_invoice_app_num" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="vendor_full_name" />
+            <Field field="check_amount" />
+            <Field field="New_invoice_no" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_check_name" selected="False" input="Left_" />
+                <SelectField field="Right_vendor_full_name" selected="False" input="Right_" />
+                <SelectField field="Right_name" selected="False" rename="Right_name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="498" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="vendor_full_name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="check_name" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1026" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1278" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="546" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="invoice_no" />
+            <Field name="vendor_full_name" selected="False" />
+            <Field name="name" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>New_</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>TRIM([_CurrentField_])</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TRIM([_CurrentField_])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1278" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="amount" selected="False" />
+            <SelectField field="check_amount" selected="False" />
+            <SelectField field="Right_New_check_amount" selected="False" />
+            <SelectField field="check_name" selected="False" />
+            <SelectField field="New_invoice_app_num" selected="False" />
+            <SelectField field="New_invoice_no" selected="False" />
+            <SelectField field="vendor_full_name" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1374" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">C:\Users\kaboderin\Desktop\MyAlteryxRec.xlsx|||recon</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="True" />
+          <MultiFileType>FileName</MultiFileType>
+          <MultiFileField>name</MultiFileField>
+          <KeepField value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>MyAlteryxRec.xlsx
+Table=recon</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings>
+        <Position x="1050" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"New_invoice_app_num"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">True</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="858" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="invoice_app_num" />
+            <Field name="check_name" selected="False" />
+            <Field name="name" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>New_</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>TRIM([_CurrentField_])</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TRIM([_CurrentField_])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings>
+        <Position x="726" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"New_invoice_no"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="990" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="TrimLeft([New_invoice_no],&quot;0&quot;)" field="New_invoice_no" size="255" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[New_invoice_no = TrimLeft([New_invoice_no],"0")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1146" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="TrimLeft([New_invoice_app_num],&quot;0&quot;)" field="New_invoice_app_num" size="255" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[New_invoice_app_num = TrimLeft([New_invoice_app_num],"0")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1206" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>New_invoice_no</Field>
+          <RegExExpression value="(\d+)\s+(.*)" />
+          <CaseInsensitve value="False" />
+          <Method>Replace</Method>
+          <Replace expression="$1">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>New_invoice_no</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_WString" size="255" />
+            <Field field="RegExOut2" type="V_WString" size="255" />
+          </ParseComplex>
+          <Match>
+            <Field>vendor_full_name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1242" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>New_invoice_app_num</Field>
+          <RegExExpression value="(\d+)\s+(.*)" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$1">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>New_invoice_app_num</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_WString" size="255" />
+            <Field field="RegExOut2" type="V_WString" size="255" />
+          </ParseComplex>
+          <Match>
+            <Field>check_name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="834" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="TrimRight([New_invoice_no],&quot;OK&quot;)" field="New_invoice_no" size="255" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[New_invoice_no = TrimRight([New_invoice_no],"OK")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1146" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="check_name" />
+            <Field field="amount" />
+            <Field field="date_issued" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="vendor_full_name" />
+            <Field field="check_amount" />
+            <Field field="check_date" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_check_name" selected="False" input="Left_" />
+                <SelectField field="Left_New_invoice_app_num" selected="False" input="Left_" />
+                <SelectField field="Left_New_invoice_no" selected="False" input="Left_" />
+                <SelectField field="Right_vendor_full_name" selected="False" input="Right_" />
+                <SelectField field="Right_invoice_no" selected="False" rename="Right_invoice_no" input="Right_" />
+                <SelectField field="Right_check_date" selected="False" rename="Right_check_date" input="Right_" />
+                <SelectField field="Right_check_amount" selected="False" rename="Right_check_amount" input="Right_" type="V_WString" size="21" />
+                <SelectField field="Right_name" selected="False" rename="Right_name" input="Right_" />
+                <SelectField field="Right_New_invoice_no" selected="False" rename="Right_New_invoice_no" input="Right_" />
+                <SelectField field="Right_check_name" selected="False" rename="Right_check_name" input="Right_" />
+                <SelectField field="Right_invoice_app_num" selected="False" rename="Right_invoice_app_num" input="Right_" />
+                <SelectField field="Right_date_issued" selected="False" rename="Right_date_issued" input="Right_" />
+                <SelectField field="Right_amount" selected="False" rename="Right_amount" input="Right_" />
+                <SelectField field="Right_New_invoice_app_num" selected="False" rename="Right_New_invoice_app_num" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1398" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1506" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="date_issued" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>date_issued - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="642" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Numeric</FieldType>
+          <Fields orderChanged="False">
+            <Field name="check_amount" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>New_</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>'$'+ToString([check_amount], 2, 1)</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_WString" size="21" scale="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>'$'+ToString([check_amount], 2, 1)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="954" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Numeric</FieldType>
+          <Fields orderChanged="False">
+            <Field name="amount" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>New_</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>'$'+ToString([amount], 2, 1)</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_WString" size="21" scale="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>'$'+ToString([amount], 2, 1)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="23" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="23" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="50" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="50" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="25" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="25" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Join" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="36" Connection="Left" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Right" />
+      <Destination ToolID="73" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="73" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Join" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="73" Connection="Right" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output26" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output26" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="73" Connection="Join" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="73" Connection="Left" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="66" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="64" Connection="Input2" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Recon</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
